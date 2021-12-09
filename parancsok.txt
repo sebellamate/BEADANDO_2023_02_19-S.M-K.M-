@@ -1,0 +1,5 @@
+cd "útvonal" - megadott útvonalon lévő mappába lép
+cd.. - visszalép egy mappát
+cd\ - visszalép a gyökér meghajtóba
+dir - mappa tartalmának kilistázása
+cls - console törlése
