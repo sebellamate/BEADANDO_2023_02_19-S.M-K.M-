@@ -1,9 +1,14 @@
 body {
     background-color: rgb(56, 56, 56);
 }
+<<<<<<< HEAD
 
 header {
     background-image: url();
+=======
+header{
+    background-image: url(../BEADANDO_2023_02_19-S.M-K.M--main/image/Fejléc.jpg);
+>>>>>>> a36c0f075f1fa77c5deefad2c54591b78318cb05
 }
 
 header h1 {
