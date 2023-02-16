@@ -1,10 +1,12 @@
-body {
+body 
     background-color: rgb(56, 56, 56);
 }
 
-header {
+header 
     background-image: url();
-header{
+}
+
+header 
     background-image: url(../BEADANDO_2023_02_19-S.M-K.M--main/image/Fejléc.jpg);
 }
 
@@ -18,33 +20,88 @@ header h1 {
     margin: 0px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 30px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: rgb(0, 0, 0);
-    border: 1px solid red;
-    text-align: center;
+nav ul list-style-type: none;
+margin: 30px;
+padding: 0px;
+overflow: hidden;
+background-color: rgb(0, 0, 0);
+border: 1px solid red;
+text-align: center;
 }
 
-nav li {
-    float: left;
+nav li float: left;
 }
 
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+nav li a display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
-nav li a:hover {
-    background-color: rgb(175, 175, 175);
+nav li a:hover background-color: rgb(175, 175, 175);
 
 }
 
-#aktoldal {
+#aktoldal 
     background-color: dimgrey;
 }
+
+
+{
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #1A1E23;
+    font-family: "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  nav {
+    position: relative;
+    padding-bottom: 12px;
+  }
+  nav .line {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0 0 0;
+    background: #FF1847;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+  nav ul li {
+    margin: 0 40px 0 0;
+    opacity: 0.4;
+    transition: all 0.4s ease;
+  }
+  nav ul li:hover {
+    opacity: 0.7;
+  }
+  nav ul li.active {
+    opacity: 1;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+  }
+  
+  nav body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
