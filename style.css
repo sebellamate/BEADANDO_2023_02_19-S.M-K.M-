@@ -1,6 +1,53 @@
-body{
-    background-color: aquamarine;
+body {
+    background-color: rgb(56, 56, 56);
 }
+<<<<<<< HEAD
+
+header {
+    background-image: url();
+=======
 header{
     background-image: url(../BEADANDO_2023_02_19-S.M-K.M--main/image/Fejléc.jpg);
+>>>>>>> a36c0f075f1fa77c5deefad2c54591b78318cb05
+}
+
+header h1 {
+    color: aliceblue;
+    text-align: center;
+    font-style: oblique;
+    font-size: 50px;
+    text-shadow: 5px 5px 8px rgb(255, 255, 255);
+    padding-top: 20px;
+    margin: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 30px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid red;
+    text-align: center;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(175, 175, 175);
+
+}
+
+#aktoldal {
+    background-color: dimgrey;
 }
