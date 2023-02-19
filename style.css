@@ -14,58 +14,36 @@ header h1{
     height: auto;
 }
 nav a{
-   color: red !important;
+   color: rgb(0, 0, 0) !important;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
-    display: block;
-    color: white;
+    display: flex;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 .navbar{
-    background-color: gainsboro !important;
+    background-color: rgb(194, 194, 194) !important;
     height: 80px;
 }
 
-.active{
-    font-weight: bold;
-
+.active {
+    font-weight: bold; 
 } 
-div{
+div {
     padding: 15px;
+    
 }
 section img{
     box-shadow: 5px 5px 8px whitesmoke;
     border-radius: 20%;
     border: 5px solid white;
+    height: 200px;
+    width: 1000px;
 }
-footer p{
-    width: 20px;
-}
-  #bal{
-    float: left;
-  }
-  #jobb{
-    float: right;
-  }
-  #kozep{
-    text-align: center;
-  }
-  #bal, #jobb, #kozep{
-    padding: 20px;
-    display: block;
-  } 
   table{
     color: aliceblue;
     border: 1px black;
     background-color: blanchedalmond;
   }
-  #kép{
-    text-align: center;   
-    margin: 10px 480px 30px;
-  }
-footer img{
-    width: 60px;
-    float: left;
-}
+
