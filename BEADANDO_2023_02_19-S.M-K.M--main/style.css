@@ -1,0 +1,76 @@
+
+header{
+    background-image: url("images/banner-1036483_960_720.jpg");
+    height: 100px;
+    color: aliceblue;
+    
+}
+header h1{
+    text-shadow: 5px 5px 8px white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    height: auto;
+}
+nav a{
+   color: rgb(0, 0, 0) !important;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:line-through;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-size: large;
+}
+.navbar{
+    background-color: rgb(51, 126, 187) !important;
+    height: 80px;
+}
+
+.active {
+    font-weight: bold; 
+} 
+div {
+    padding: 15px;
+    
+}
+section img{
+    box-shadow: 5px 5px 8px whitesmoke;
+    border-radius: 20%;
+    border: 5px solid white;
+    height: 200px;
+    width: 1000px;
+}
+  table{
+    color: rgb(0, 0, 0);
+    background-color: rgb(10, 202, 228);
+    
+  }
+p{
+    color:rgb(0, 0, 0);
+}
+body{
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
+td{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(87, 85, 85);
+}
+footer p{
+    background-color: rgb(255, 255, 255);
+}
+#bal{
+    float: left;
+}
+#jobb{
+    float: right;
+}
+#kozep{
+    text-align: center;
+}
+#bal, #jobb, #kozep{
+    display: block;
+    padding: 5px;
+}
